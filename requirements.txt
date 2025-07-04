@@ -2,6 +2,7 @@
 streamlit
 numpy
 pandas
+faiss-cpu
 altair
 
 # OpenAI API and language models
