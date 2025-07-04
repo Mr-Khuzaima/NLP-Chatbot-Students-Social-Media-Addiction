@@ -13,7 +13,7 @@ DATA_PATH = "Students Social Media Addiction.csv"  # <-- ✅ Just the filename
 MODEL_NAME = "mistralai/Mistral-7B-Instruct-v0.1"
 
 # --- API KEY ---
-openai.api_key = os.getenv("TOGETHER_API_KEY")  # Hugging Face Secret
+openai.api_key = os.getenv("TOGETHER_API_KEY")   # Hugging Face Secret
 openai.api_base = "https://api.together.xyz/v1"
 
 if not openai.api_key:
