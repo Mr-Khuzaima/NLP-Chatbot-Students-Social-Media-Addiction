@@ -1,7 +1,21 @@
 streamlit
-pandas
 numpy
+pandas
+altair
 faiss-cpu
 openai
 sentence-transformers
 langchain
+# Transformers related (very common for modern LLMs and embeddings)
+transformers
+accelerate
+torch # Or tensorflow (if you specifically use TensorFlow models)
+sentencepiece # Essential for many Hugging Face tokenizers
+protobuf # Common dependency for various ML/NLP tools
+tokenizers # Used by Hugging Face transformers
+# For specific LLM types (e.g., if using Llama/Mistral)
+bitsandbytes # ONLY if you are loading models in 8-bit quantization
+einops # Used in some transformer architectures
+# Other utilities often useful in chatbots
+tiktoken # Used by OpenAI for token counting and some LangChain integrations
+python-dotenv # If you're loading API keys from a .env file
